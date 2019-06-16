@@ -1,4 +1,4 @@
-﻿Log file open, 06/15/19 12:12:00
+﻿Log file open, 06/16/19 14:31:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: ElvenGames
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.281451
+LogStats: Stats thread started at 0.273848
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,500 +156,1010 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:130][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.06.15-10.12.01:130][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.06.15-10.12.01:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:131][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.15-10.12.01:135][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.15-10.12.01:135][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.15-10.12.01:136][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.15-10.12.01:137][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.15-10.12.01:137][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.15-10.12.01:137][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:137][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.15-10.12.01:137][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.15-10.12.01:137][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-10.12.01:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.15-10.12.01:144][  0]LogHAL: Display: Platform has ~ 8 GB [8457244672 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.06.15-10.12.01:144][  0]LogInit: Going up to parent DeviceProfile []
-[2019.06.15-10.12.01:144][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.15-10.12.01:144][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.06.15-10.12.01:145][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
-[2019.06.15-10.12.01:146][  0]LogInit: Computer: DESKTOP-F7AQ3T6
-[2019.06.15-10.12.01:146][  0]LogInit: User: juani
-[2019.06.15-10.12.01:146][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.06.15-10.12.01:146][  0]LogInit: High frequency timer resolution =3.515635 MHz
-[2019.06.15-10.12.01:146][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.06.15-10.12.01:146][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.15-10.12.01:146][  0]LogMemory: Process Physical Memory: 96.04 MB used, 96.04 MB peak
-[2019.06.15-10.12.01:146][  0]LogMemory: Process Virtual Memory: 90.41 MB used, 90.41 MB peak
-[2019.06.15-10.12.01:146][  0]LogMemory: Physical Memory: 5624.39 MB used,  2441.07 MB free, 8065.46 MB total
-[2019.06.15-10.12.01:146][  0]LogMemory: Virtual Memory: 4655.79 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.06.15-10.12.01:637][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.06.15-10.12.01:637][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.06.15-10.12.01:777][  0]LogInit: Setting process to per monitor DPI aware
-[2019.06.15-10.12.01:810][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.15-10.12.01:810][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.15-10.12.01:967][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.15-10.12.01:967][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.15-10.12.02:016][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2019.06.15-10.12.02:016][  0]LogD3D11RHI:       2007/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.06.15-10.12.02:028][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.06.15-10.12.02:028][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.06.15-10.12.02:029][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.15-10.12.02:029][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.15-10.12.02:030][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.15-10.12.02:036][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.15-10.12.02:036][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.15-10.12.02:036][  0]LogWindows: EnumDisplayDevices:
-[2019.06.15-10.12.02:036][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2019.06.15-10.12.02:036][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.06.15-10.12.02:036][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.06.15-10.12.02:037][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2019.06.15-10.12.02:037][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.06.15-10.12.02:037][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.06.15-10.12.02:037][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.06.15-10.12.02:037][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.06.15-10.12.02:037][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2019.06.15-10.12.02:037][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.06.15-10.12.02:037][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.06.15-10.12.02:037][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2019.06.15-10.12.02:074][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.15-10.12.02:077][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.15-10.12.02:077][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.15-10.12.02:077][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.15-10.12.02:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.06.15-10.12.02:409][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.06.15-10.12.02:422][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.06.15-10.12.02:434][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.06.15-10.12.02:446][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.06.15-10.12.02:458][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.06.15-10.12.02:470][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.06.15-10.12.02:483][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.06.15-10.12.02:495][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.06.15-10.12.02:502][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.06.15-10.12.02:571][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.06.15-10.12.02:573][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.06.15-10.12.02:619][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.06.15-10.12.02:619][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.06.15-10.12.02:640][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.06.15-10.12.02:640][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.06.15-10.12.02:651][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.06.15-10.12.02:662][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.06.15-10.12.02:672][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.06.15-10.12.02:684][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.06.15-10.12.02:724][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.06.15-10.12.02:724][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.06.15-10.12.02:724][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.15-10.12.02:731][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.06.15-10.12.02:779][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Intermediate/Shaders/WorkingDirectory/3276/).
-[2019.06.15-10.12.02:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/juani/AppData/Local/Temp/UnrealShaderWorkingDir/BFC06D6640E588B9FBD497A7B6BC0176/'.
-[2019.06.15-10.12.02:781][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.15-10.12.02:782][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.15-10.12.02:782][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.15-10.12.03:277][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.15-10.12.03:335][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.15-10.12.03:347][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.15-10.12.03:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.15-10.12.03:347][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.06.15-10.12.03:359][  0]LogDerivedDataCache: Using Local data cache path C:/Users/juani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.15-10.12.03:359][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.15-10.12.03:359][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.15-10.12.03:380][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.15-10.12.03:381][  0]LogSlate: Using FreeType 2.6.0
-[2019.06.15-10.12.03:381][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.15-10.12.03:462][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
-[2019.06.15-10.12.03:756][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.15-10.12.03:811][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.15-10.12.03:811][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.06.15-10.12.03:811][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.06.15-10.12.03:811][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.06.15-10.12.03:811][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.06.15-10.12.03:893][  0]LogNetVersion: ElvenGames 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1590726945)
-[2019.06.15-10.12.04:286][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.029995 seconds
-[2019.06.15-10.12.04:292][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.06.15-10.12.04:292][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.06.15-10.12.04:292][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.15-10.12.05:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.15-10.12.05:127][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.15-10.12.05:231][  0]SourceControl: Source control is disabled
-[2019.06.15-10.12.05:231][  0]SourceControl: Source control is disabled
-[2019.06.15-10.12.05:233][  0]SourceControl: Source control is disabled
-[2019.06.15-10.12.05:234][  0]SourceControl: Source control is disabled
-[2019.06.15-10.12.05:321][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.15-10.12.05:458][  0]LogOcInput: OculusInput pre-init called
-[2019.06.15-10.12.06:099][  0]LogEngine: Initializing Engine...
-[2019.06.15-10.12.06:100][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.15-10.12.06:101][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.06.15-10.12.06:329][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.06.15-10.12.06:353][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.15-10.12.06:387][  0]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.15-10.12.06:425][  0]LogInit: FAudioDevice initialized.
-[2019.06.15-10.12.06:425][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.06.15-10.12.06:517][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.15-10.12.06:524][  0]LogInit: Texture streaming: Enabled
-[2019.06.15-10.12.06:545][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.15-10.12.06:570][  0]LogInit: Transaction tracking system initialized
-[2019.06.15-10.12.06:598][  0]BlueprintLog: New page: Editor Load
-[2019.06.15-10.12.06:689][  0]LocalizationService: Localization service is disabled
-[2019.06.15-10.12.06:984][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.15-10.12.06:985][  0]LogCook: Display: Mobile HDR setting 1
-[2019.06.15-10.12.07:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/' took 0.05s
-[2019.06.15-10.12.07:178][  0]SourceControl: Source control is disabled
-[2019.06.15-10.12.07:178][  0]Cmd: MAP LOAD FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.15-10.12.07:179][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.15-10.12.07:179][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.15-10.12.07:179][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
-[2019.06.15-10.12.07:179][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.001
-[2019.06.15-10.12.07:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.07:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.07:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.07:354][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.07:364][  0]LogCollectionManager: Loaded 0 collections in 0.002885 seconds
-[2019.06.15-10.12.07:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Collections/' took 0.01s
-[2019.06.15-10.12.07:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Developers/juani/Collections/' took 0.00s
-[2019.06.15-10.12.07:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Collections/' took 0.00s
-[2019.06.15-10.12.07:383][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.06.15-10.12.07:392][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2732 classes and 659 folders.
-[2019.06.15-10.12.07:399][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-10.12.07:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:425][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:428][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:431][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:434][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:436][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:439][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:442][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:445][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:448][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:450][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:453][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:456][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:479][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:486][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.15-10.12.07:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-10.12.07:775][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.06.15-10.12.07:794][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.15-10.12.07:797][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.15-10.12.07:809][  0]LogSlate: Took 0.003861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.15-10.12.07:916][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2019.06.15-10.12.08:145][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.15-10.12.08:145][  0]LogLoad: (Engine Initialization) Total time: 8.94 seconds
-[2019.06.15-10.12.08:145][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.15-10.12.08:156][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.06.15-10.12.08:210][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.06.15-10.12.08:232][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-10.12.09:242][112]LogAssetRegistry: Asset discovery search completed in 5.8021 seconds
-[2019.06.15-10.12.09:244][112]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.06.15-10.12.09:244][112]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
-[2019.06.15-10.12.10:998][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.15-10.12.15:588][852]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.15-10.12.15:712][852]LogLinker: Can't find file '/Game/InventorySystem/Item'
-[2019.06.15-10.12.15:712][852]LogLinker: Can't find file '/Game/InventorySystem/Item'
-[2019.06.15-10.12.16:435][852]LogMaterial: Display: Missing cached shader map for material M_SolidColor_Base, compiling. 
-[2019.06.15-10.12.16:656][852]LogStaticMesh: Building static mesh TemplateFloor...
-[2019.06.15-10.12.16:662][852]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/TemplateFloor.TemplateFloor
-[2019.06.15-10.12.16:730][852]LogStaticMesh: Building static mesh SM_CoasterStack...
-[2019.06.15-10.12.16:834][852]LogStaticMesh: Built static mesh [0.10s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_CoasterStack.SM_CoasterStack
-[2019.06.15-10.12.16:845][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Hang_Idle.Hang_Idle
-[2019.06.15-10.12.16:846][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/Hang_Idle.Hang_Idle) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:850][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/MoveLeft.MoveLeft
-[2019.06.15-10.12.16:850][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/MoveLeft.MoveLeft) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:852][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/JumpRight.JumpRight
-[2019.06.15-10.12.16:852][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/JumpRight.JumpRight) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:860][852]LogMaterial: Display: Missing cached shader map for material ely_vanguardsoldier_kerwinatienza_M, compiling. 
-[2019.06.15-10.12.16:903][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personajes/Standard_Idle_Anim_mixamo_com.Standard_Idle_Anim_mixamo_com
-[2019.06.15-10.12.16:903][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Personajes/Standard_Idle_Anim_mixamo_com.Standard_Idle_Anim_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:909][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AI/NPC/Attack_PrimaryA.Attack_PrimaryA
-[2019.06.15-10.12.16:909][852]LogAnimationCompression: Recompressing (AnimSequence /Game/AI/NPC/Attack_PrimaryA.Attack_PrimaryA) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:972][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPerson_Jump.ThirdPerson_Jump
-[2019.06.15-10.12.16:973][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPerson_Jump.ThirdPerson_Jump) using current/default (AnimCompress_RemoveLinearKeys_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:981][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/MoveRight.MoveRight
-[2019.06.15-10.12.16:982][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/MoveRight.MoveRight) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:983][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
-[2019.06.15-10.12.16:983][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.16:997][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Climb.Climb
-[2019.06.15-10.12.16:997][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/Climb.Climb) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:002][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPersonWalk.ThirdPersonWalk
-[2019.06.15-10.12.17:002][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPersonWalk.ThirdPersonWalk) using current/default (AnimCompress_RemoveLinearKeys_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:029][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPersonIdle.ThirdPersonIdle
-[2019.06.15-10.12.17:029][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPersonIdle.ThirdPersonIdle) using current/default (AnimCompress_RemoveLinearKeys_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:088][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPersonRun.ThirdPersonRun
-[2019.06.15-10.12.17:088][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:104][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
-[2019.06.15-10.12.17:104][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start) using current/default (AnimCompress_RemoveLinearKeys_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:117][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/MOB1_CrouchWalk_F.MOB1_CrouchWalk_F
-[2019.06.15-10.12.17:117][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/MOB1_CrouchWalk_F.MOB1_CrouchWalk_F) using current/default (AnimCompress_BitwiseCompressOnly_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:119][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Crouch_Idle.Crouch_Idle
-[2019.06.15-10.12.17:119][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/Crouch_Idle.Crouch_Idle) using current/default (AnimCompress_BitwiseCompressOnly_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:123][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/JumpLeft.JumpLeft
-[2019.06.15-10.12.17:123][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/JumpLeft.JumpLeft) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:127][852]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Crouch_to_Stand.Crouch_to_Stand
-[2019.06.15-10.12.17:127][852]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/Crouch_to_Stand.Crouch_to_Stand) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2019.06.15-10.12.17:135][852]LogAIModule: Creating AISystem for world Prueabas
-[2019.06.15-10.12.17:180][852]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Prueabas.Prueabas
-[2019.06.15-10.12.17:240][852]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
-[2019.06.15-10.12.17:243][852]Cmd: MAP LOAD FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.15-10.12.17:243][852]LightingResults: New page: Lighting Build
-[2019.06.15-10.12.17:248][852]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
-[2019.06.15-10.12.17:249][852]LoadErrors: New page: Loading map: Prueabas.umap
-[2019.06.15-10.12.17:250][852]MapCheck: New page: Map Check
-[2019.06.15-10.12.17:250][852]LightingResults: New page: Lighting Build
-[2019.06.15-10.12.17:278][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
-[2019.06.15-10.12.17:311][852]LogShaderCompilers: Display: Shaders left to compile 60
-[2019.06.15-10.12.17:311][852]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.15-10.12.17:340][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2019.06.15-10.12.17:360][852]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.15-10.12.17:361][852]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
-[2019.06.15-10.12.17:361][852]LogFileHelpers: Loading map 'Prueabas' took 0.120
-[2019.06.15-10.12.19:725][  2]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.15-10.12.19:740][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
-[2019.06.15-10.12.19:741][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.15-10.12.19:741][  2]PIE: New page: PIE session: Prueabas (Jun 15, 2019, 2:12:19 PM)
-[2019.06.15-10.12.19:758][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
-[2019.06.15-10.12.19:790][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031207s)
-[2019.06.15-10.12.19:791][  2]LogAIModule: Creating AISystem for world Prueabas
-[2019.06.15-10.12.19:791][  2]LogPlayLevel: PIE: World Init took: (0.001413s)
-[2019.06.15-10.12.19:791][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.033100s)
-[2019.06.15-10.12.19:820][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2019.06.15-10.12.19:835][  2]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.15-10.12.19:879][  2]LogInit: FAudioDevice initialized.
-[2019.06.15-10.12.19:929][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.06.15-10.12.19:937][  2]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.15-12.12.19
-[2019.06.15-10.12.19:949][  2]LogWorld: Bringing up level for play took: 0.016918
-[2019.06.15-10.12.19:974][  2]LogShaderCompilers: Display: Shaders left to compile 50
-[2019.06.15-10.12.19:974][  2]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.06.15-10.12.19:981][  2]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.842
-[2019.06.15-10.12.19:981][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
-[2019.06.15-10.12.20:345][ 21]LogShaderCompilers: Display: Shaders left to compile 40
-[2019.06.15-10.12.22:964][208]LogShaderCompilers: Display: Shaders left to compile 30
-[2019.06.15-10.12.24:021][287]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.06.15-10.12.24:580][328]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.06.15-10.12.33:943][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
-[2019.06.15-10.12.33:944][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.33:976][295]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.15-10.12.33:977][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
-[2019.06.15-10.12.33:998][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.15-10.12.34:001][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
-[2019.06.15-10.12.34:046][299]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.06.15-10.12.34:705][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.31.07:253][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.16-12.31.07:253][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.16-12.31.07:253][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:253][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.16-12.31.07:253][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:253][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:253][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.16-12.31.07:253][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.16-12.31.07:254][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:254][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.16-12.31.07:260][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.16-12.31.07:261][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.16-12.31.07:261][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.16-12.31.07:261][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.16-12.31.07:268][  0]LogHAL: Display: Platform has ~ 8 GB [8457244672 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.16-12.31.07:268][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.16-12.31.07:268][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Scalability.ini]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.16-12.31.07:269][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.16-12.31.07:270][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.16-12.31.07:270][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.16-12.31.07:270][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Config/Windows/Engine.ini]
+[2019.06.16-12.31.07:270][  0]LogInit: Computer: DESKTOP-F7AQ3T6
+[2019.06.16-12.31.07:270][  0]LogInit: User: juani
+[2019.06.16-12.31.07:270][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.16-12.31.07:270][  0]LogInit: High frequency timer resolution =3.515631 MHz
+[2019.06.16-12.31.07:270][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.06.16-12.31.07:270][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.16-12.31.07:270][  0]LogMemory: Process Physical Memory: 96.23 MB used, 96.23 MB peak
+[2019.06.16-12.31.07:270][  0]LogMemory: Process Virtual Memory: 90.37 MB used, 90.37 MB peak
+[2019.06.16-12.31.07:270][  0]LogMemory: Physical Memory: 4392.74 MB used,  3672.71 MB free, 8065.46 MB total
+[2019.06.16-12.31.07:270][  0]LogMemory: Virtual Memory: 4655.79 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.06.16-12.31.07:696][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.06.16-12.31.07:696][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.06.16-12.31.07:836][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.16-12.31.07:872][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.16-12.31.07:872][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.16-12.31.08:045][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.16-12.31.08:045][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.16-12.31.08:106][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.06.16-12.31.08:106][  0]LogD3D11RHI:       2007/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.16-12.31.08:118][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.06.16-12.31.08:118][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.06.16-12.31.08:120][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.16-12.31.08:120][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.16-12.31.08:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.16-12.31.08:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.16-12.31.08:127][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.16-12.31.08:127][  0]LogWindows: EnumDisplayDevices:
+[2019.06.16-12.31.08:127][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.06.16-12.31.08:127][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.16-12.31.08:127][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.16-12.31.08:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.06.16-12.31.08:128][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.06.16-12.31.08:128][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.06.16-12.31.08:128][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.06.16-12.31.08:128][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.06.16-12.31.08:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.06.16-12.31.08:128][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.06.16-12.31.08:128][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.06.16-12.31.08:128][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.06.16-12.31.08:161][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.16-12.31.08:164][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.16-12.31.08:164][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.16-12.31.08:164][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.16-12.31.08:178][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.06.16-12.31.08:475][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.16-12.31.08:487][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.16-12.31.08:500][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.16-12.31.08:512][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.16-12.31.08:526][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.16-12.31.08:539][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.16-12.31.08:551][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.16-12.31.08:563][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.16-12.31.08:569][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.16-12.31.08:636][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.16-12.31.08:637][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.16-12.31.08:637][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.16-12.31.08:637][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.16-12.31.08:638][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.16-12.31.08:687][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.16-12.31.08:687][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.16-12.31.08:712][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.16-12.31.08:712][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.16-12.31.08:724][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.16-12.31.08:738][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.16-12.31.08:749][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.16-12.31.08:760][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.16-12.31.08:800][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.16-12.31.08:800][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.16-12.31.08:800][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.16-12.31.08:810][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.16-12.31.08:862][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Intermediate/Shaders/WorkingDirectory/4620/).
+[2019.06.16-12.31.08:862][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/juani/AppData/Local/Temp/UnrealShaderWorkingDir/275596594FF10A18965ACEA8CF4391AF/'.
+[2019.06.16-12.31.08:865][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.16-12.31.08:865][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.16-12.31.08:865][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.16-12.31.09:333][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.16-12.31.09:386][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.16-12.31.09:386][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.16-12.31.09:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.16-12.31.09:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.16-12.31.09:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.16-12.31.09:387][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.16-12.31.09:397][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.16-12.31.09:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.16-12.31.09:397][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.16-12.31.09:409][  0]LogDerivedDataCache: Using Local data cache path C:/Users/juani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.16-12.31.09:409][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.16-12.31.09:409][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.16-12.31.09:430][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.16-12.31.09:431][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.16-12.31.09:431][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.16-12.31.09:513][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2019.06.16-12.31.09:811][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.16-12.31.09:928][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.16-12.31.09:928][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.16-12.31.09:928][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.16-12.31.09:928][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.16-12.31.09:928][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.16-12.31.09:937][  0]LogNetVersion: ElvenGames 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1590726945)
+[2019.06.16-12.31.10:274][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.025406 seconds
+[2019.06.16-12.31.10:281][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.16-12.31.10:281][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.16-12.31.10:281][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.16-12.31.11:025][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.16-12.31.11:039][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.16-12.31.11:156][  0]SourceControl: Source control is disabled
+[2019.06.16-12.31.11:156][  0]SourceControl: Source control is disabled
+[2019.06.16-12.31.11:158][  0]SourceControl: Source control is disabled
+[2019.06.16-12.31.11:159][  0]SourceControl: Source control is disabled
+[2019.06.16-12.31.11:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.16-12.31.11:353][  0]LogOcInput: OculusInput pre-init called
+[2019.06.16-12.31.11:980][  0]LogEngine: Initializing Engine...
+[2019.06.16-12.31.11:981][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.16-12.31.11:982][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.16-12.31.12:171][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.16-12.31.12:186][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.16-12.31.12:213][  0]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.31.12:245][  0]LogInit: FAudioDevice initialized.
+[2019.06.16-12.31.12:245][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.16-12.31.12:320][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/juani/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.16-12.31.12:326][  0]LogInit: Texture streaming: Enabled
+[2019.06.16-12.31.12:343][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.16-12.31.12:362][  0]LogInit: Transaction tracking system initialized
+[2019.06.16-12.31.12:387][  0]BlueprintLog: New page: Editor Load
+[2019.06.16-12.31.12:468][  0]LocalizationService: Localization service is disabled
+[2019.06.16-12.31.12:732][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.16-12.31.12:732][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.16-12.31.12:868][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/' took 0.04s
+[2019.06.16-12.31.12:914][  0]SourceControl: Source control is disabled
+[2019.06.16-12.31.12:914][  0]Cmd: MAP LOAD FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.16-12.31.12:914][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.06.16-12.31.12:914][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.16-12.31.12:915][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
+[2019.06.16-12.31.12:915][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.001
+[2019.06.16-12.31.13:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.31.13:037][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.31.13:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.31.13:052][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.31.13:058][  0]LogCollectionManager: Loaded 0 collections in 0.001843 seconds
+[2019.06.16-12.31.13:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Collections/' took 0.01s
+[2019.06.16-12.31.13:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Developers/juani/Collections/' took 0.00s
+[2019.06.16-12.31.13:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Collections/' took 0.00s
+[2019.06.16-12.31.13:073][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.16-12.31.13:080][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2732 classes and 659 folders.
+[2019.06.16-12.31.13:086][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.16-12.31.13:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.16-12.31.13:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.16-12.31.13:135][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.06.16-12.31.13:148][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.16-12.31.13:149][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.16-12.31.13:154][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.16-12.31.13:213][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2019.06.16-12.31.13:383][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.16-12.31.13:383][  0]LogLoad: (Engine Initialization) Total time: 8.01 seconds
+[2019.06.16-12.31.13:383][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.16-12.31.13:394][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.16-12.31.13:438][  0]LogAssetRegistry: Asset discovery search completed in 3.9483 seconds
+[2019.06.16-12.31.13:441][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.06.16-12.31.13:441][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2019.06.16-12.31.13:442][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.16-12.31.13:471][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.16-12.31.14:408][110]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.16-12.31.21:730][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.31.23:371][142]LogLinker: Can't find file '/Game/InventorySystem/Item'
+[2019.06.16-12.31.23:372][142]LogLinker: Can't find file '/Game/InventorySystem/Item'
+[2019.06.16-12.31.24:252][142]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.31.24:277][142]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Prueabas.Prueabas
+[2019.06.16-12.31.24:308][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.06.16-12.31.24:309][142]Cmd: MAP LOAD FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.16-12.31.24:309][142]LightingResults: New page: Lighting Build
+[2019.06.16-12.31.24:312][142]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2019.06.16-12.31.24:312][142]LoadErrors: New page: Loading map: Prueabas.umap
+[2019.06.16-12.31.24:313][142]MapCheck: New page: Map Check
+[2019.06.16-12.31.24:313][142]LightingResults: New page: Lighting Build
+[2019.06.16-12.31.24:334][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.06.16-12.31.24:346][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.16-12.31.24:368][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.06.16-12.31.24:382][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.16-12.31.24:382][142]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2019.06.16-12.31.24:382][142]LogFileHelpers: Loading map 'Prueabas' took 0.073
+[2019.06.16-12.31.29:174][575]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.29:175][575]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.29:175][575]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.29:175][575]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.29:175][575]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.29:175][575]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by TurnBack
+[2019.06.16-12.31.29:176][575]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.29:213][575]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/TurnBack.TurnBack
+[2019.06.16-12.31.30:168][575]LogSlate: Window 'Message' being destroyed
+[2019.06.16-12.31.30:266][575]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.06.16-12.31.31:833][704]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/TurnBack.TurnBack
+[2019.06.16-12.31.31:833][704]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.TurnBack) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.16-12.31.31:846][704]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/TurnBack.TurnBack
+[2019.06.16-12.31.31:853][704]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.16-12.31.32:062][704]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.31.32:065][704]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.06.16-12.31.32:092][704]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.31.32:301][704]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.06.16-12.31.32:509][704]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.31.34:497][813]LogSlate: Window 'TurnBack' being destroyed
+[2019.06.16-12.31.35:847][881]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.35:847][881]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.35:847][881]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.35:847][881]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.35:848][881]LogLinker: Warning: Can't find file '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton'
+[2019.06.16-12.31.35:848][881]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by BackLoop
+[2019.06.16-12.31.35:848][881]LogLinker: Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton' while loading NULL.
+[2019.06.16-12.31.35:892][881]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/BackLoop.BackLoop
+[2019.06.16-12.31.36:793][881]LogSlate: Window 'Message' being destroyed
+[2019.06.16-12.31.36:880][881]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.06.16-12.31.38:895][ 33]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/BackLoop.BackLoop
+[2019.06.16-12.31.38:929][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.31.38:946][ 33]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.31.39:117][ 33]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.06.16-12.31.39:270][ 33]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.31.45:527][452]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2019.06.16-12.31.45:566][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.31.45:773][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.06.16-12.31.46:415][452]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.31.46:621][452]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.16-12.31.46:746][452]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.31.46:775][453]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.16-12.32.46:091][118]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/TurnBack.TurnBack
+[2019.06.16-12.32.46:116][118]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.32.46:140][118]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.32.46:424][118]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.34.35:753][471]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.34.35:762][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.34.35:762][471]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.16-12.34.35:770][471]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2019.06.16-12.34.35:781][471]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] Turn Back Loop to Haning  will never be taken, please connect something to  Can Enter Transition
+[2019.06.16-12.34.35:799][471]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] [0210.42] Compile of ThirdPerson_AnimBP successful, but with 1 Warning(s) [in 37 ms] (/Game/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2019.06.16-12.34.35:999][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.06.16-12.34.35:999][471]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2019.06.16-12.34.35:999][471]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:34:35 PM)
+[2019.06.16-12.34.36:011][471]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.34.36:034][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023018s)
+[2019.06.16-12.34.36:035][471]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.34.36:035][471]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2019.06.16-12.34.36:035][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.025102s)
+[2019.06.16-12.34.36:080][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.06.16-12.34.36:092][471]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.34.36:121][471]LogInit: FAudioDevice initialized.
+[2019.06.16-12.34.36:167][471]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.34.36:171][471]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.34.36
+[2019.06.16-12.34.36:173][471]LogWorld: Bringing up level for play took: 0.005316
+[2019.06.16-12.34.36:190][471]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.06.16-12.34.36:196][471]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.06.16-12.34.36:196][471]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.06.16-12.34.36:198][471]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 1.06
+[2019.06.16-12.34.36:198][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.34.39:934][632]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.34.39:953][632]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] Turn Back Loop to Haning  will never be taken, please connect something to  Can Enter Transition
+[2019.06.16-12.34.40:157][632]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2019.06.16-12.34.40:176][632]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] [0214.80] Compile of ThirdPerson_AnimBP successful, but with 1 Warning(s) [in 240 ms] (/Game/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2019.06.16-12.35.03:959][224]LogSlate: Window 'TurnBack' being destroyed
+[2019.06.16-12.35.04:864][272]LogSlate: Window 'TurnBack' being destroyed
+[2019.06.16-12.35.07:067][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Animations/TurnBack" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/TurnBack.uasset" SILENT=true
+[2019.06.16-12.35.07:084][439]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/TurnBack43C825964DFB116721D46E8A075C2267.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/TurnBack.uasset'
+[2019.06.16-12.35.09:328][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.09:328][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.09:357][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.35.09:357][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.09:396][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.09:409][595]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.06.16-12.35.09:431][597]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.06.16-12.35.10:224][688]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.35.10:235][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.10:235][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.35.10:235][688]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:35:10 PM)
+[2019.06.16-12.35.10:236][688]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.35.10:251][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015187s)
+[2019.06.16-12.35.10:252][688]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.35.10:252][688]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2019.06.16-12.35.10:252][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016219s)
+[2019.06.16-12.35.10:289][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.16-12.35.10:302][688]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.35.10:332][688]LogInit: FAudioDevice initialized.
+[2019.06.16-12.35.10:359][688]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.35.10:362][688]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.35.10
+[2019.06.16-12.35.10:363][688]LogWorld: Bringing up level for play took: 0.003868
+[2019.06.16-12.35.10:377][688]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas -0.762
+[2019.06.16-12.35.10:377][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.17:312][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.17:313][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.17:340][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.35.17:341][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.17:375][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.17:379][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.06.16-12.35.17:422][513]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.06.16-12.35.18:232][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.35.39:518][ 26]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.35.39:732][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.06.16-12.35.39:949][ 26]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBPAC954E3044DD9D27C6F8FBA5A845896B.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.35.40:945][115]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.35.40:956][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.40:956][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.35.40:956][115]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:35:40 PM)
+[2019.06.16-12.35.40:956][115]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.35.40:971][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015416s)
+[2019.06.16-12.35.40:972][115]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.35.40:972][115]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2019.06.16-12.35.40:972][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016401s)
+[2019.06.16-12.35.41:012][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.06.16-12.35.41:024][115]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.35.41:055][115]LogInit: FAudioDevice initialized.
+[2019.06.16-12.35.41:081][115]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.35.41:085][115]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.35.41
+[2019.06.16-12.35.41:086][115]LogWorld: Bringing up level for play took: 0.003999
+[2019.06.16-12.35.41:099][115]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas -0.039
+[2019.06.16-12.35.41:100][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.58:650][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.58:650][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.58:684][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.35.58:685][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.35.58:720][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.35.58:724][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.06.16-12.35.58:754][207]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.06.16-12.35.59:206][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.36.09:075][385]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.36.09:088][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.36.09:088][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.36.09:088][385]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:36:09 PM)
+[2019.06.16-12.36.09:088][385]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.36.09:103][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015138s)
+[2019.06.16-12.36.09:104][385]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.36.09:104][385]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.06.16-12.36.09:104][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016291s)
+[2019.06.16-12.36.09:143][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.16-12.36.09:155][385]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.36.09:182][385]LogInit: FAudioDevice initialized.
+[2019.06.16-12.36.09:188][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.36.09:218][385]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.36.09:224][385]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.36.09
+[2019.06.16-12.36.09:225][385]LogWorld: Bringing up level for play took: 0.006316
+[2019.06.16-12.36.09:241][385]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.102
+[2019.06.16-12.36.09:241][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.36.09:278][386]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2019.06.16-12.36.14:234][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.36.14:235][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.36.14:243][715]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.36.14:275][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.36.14:276][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.36.14:326][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.06.16-12.36.14:335][716]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.06.16-12.36.31:110][525]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Character/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2019.06.16-12.36.31:135][525]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.36.31:426][525]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.36.31:715][525]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.36.39:734][926]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.36.39:981][926]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2019.06.16-12.36.40:242][926]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBP395871BE43FB73E6EC937EBBECD57E7C.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.36.43:029][146]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/CharacterController.CharacterController
+[2019.06.16-12.37.02:963][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.37.02:974][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.37.02:974][ 52]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.06.16-12.37.02:987][ 52]LogPlayLevel: [PlayLevel] Compiling Container before play...
+[2019.06.16-12.37.03:037][ 52]LogPlayLevel: [PlayLevel]   Compiling InventoryComponent as a dependent...
+[2019.06.16-12.37.03:044][ 52]LogPlayLevel: [PlayLevel]   Compiling Item as a dependent...
+[2019.06.16-12.37.03:045][ 52]LogPlayLevel: [PlayLevel]   Compiling LocationMarker as a dependent...
+[2019.06.16-12.37.03:058][ 52]LogPlayLevel: [PlayLevel]   Compiling Quest as a dependent...
+[2019.06.16-12.37.03:061][ 52]LogPlayLevel: [PlayLevel]   Compiling ThirdPerson_AnimBP as a dependent...
+[2019.06.16-12.37.03:061][ 52]LogPlayLevel: [PlayLevel]   Compiling TriggerCrouch as a dependent...
+[2019.06.16-12.37.03:061][ 52]LogPlayLevel: [PlayLevel]   Compiling Item_Herb as a dependent...
+[2019.06.16-12.37.03:061][ 52]LogPlayLevel: [PlayLevel]   Compiling Prueabas as a dependent...
+[2019.06.16-12.37.03:074][ 52]LogPlayLevel: [PlayLevel]   Compiling CharacterController as a dependent...
+[2019.06.16-12.37.03:076][ 52]LogPlayLevel: [PlayLevel]   Compiling Enemy as a dependent...
+[2019.06.16-12.37.03:076][ 52]LogPlayLevel: [PlayLevel]   Compiling InventorySlot as a dependent...
+[2019.06.16-12.37.03:076][ 52]LogPlayLevel: [PlayLevel]   Compiling NPCFriendly as a dependent...
+[2019.06.16-12.37.03:079][ 52]LogPlayLevel: [PlayLevel]   Compiling Objectives_UI as a dependent...
+[2019.06.16-12.37.03:081][ 52]LogPlayLevel: [PlayLevel]   Compiling Quest_UI as a dependent...
+[2019.06.16-12.37.03:082][ 52]LogPlayLevel: [PlayLevel]   Compiling QuestLogEntry_UI as a dependent...
+[2019.06.16-12.37.03:083][ 52]LogPlayLevel: [PlayLevel]   Compiling QuestLogUI as a dependent...
+[2019.06.16-12.37.03:085][ 52]LogPlayLevel: [PlayLevel]   Compiling QuestTurning_UI as a dependent...
+[2019.06.16-12.37.03:086][ 52]LogPlayLevel: [PlayLevel]   Compiling StaminaHUD as a dependent...
+[2019.06.16-12.37.03:333][ 52]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.37.03:334][ 52]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.37.03:334][ 52]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.37.03:334][ 52]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.37.03:664][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2019.06.16-12.37.03:677][ 52]LogPlayLevel: [PlayLevel]   Compiling Prueabas as a dependent...
+[2019.06.16-12.37.03:897][ 52]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/PrueabasAE55A001445DC8C0F0BDFFA64F62FC2C.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.37.03:915][ 52]LogFileHelpers: Saving map 'Prueabas' took 0.322
+[2019.06.16-12.37.03:964][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.37.04:351][ 52]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterControllerCEF2D9B0446B6367A4295F82016ED355.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.37.04:389][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.06.16-12.37.04:389][ 52]LogPlayLevel: PlayLevel: Blueprint regeneration took 1414 ms (20 blueprints)
+[2019.06.16-12.37.04:389][ 52]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:37:04 PM)
+[2019.06.16-12.37.04:389][ 52]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.37.04:404][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014921s)
+[2019.06.16-12.37.04:405][ 52]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.37.04:405][ 52]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2019.06.16-12.37.04:405][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.015726s)
+[2019.06.16-12.37.04:440][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.06.16-12.37.04:451][ 52]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.37.04:479][ 52]LogInit: FAudioDevice initialized.
+[2019.06.16-12.37.04:487][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.37.04:523][ 52]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.37.04:530][ 52]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.37.04
+[2019.06.16-12.37.04:532][ 52]LogWorld: Bringing up level for play took: 0.007495
+[2019.06.16-12.37.04:547][ 52]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 1.409
+[2019.06.16-12.37.04:548][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.37.52:113][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.37.52:114][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.37.52:122][892]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.37.52:163][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.37.52:163][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.37.52:209][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.06.16-12.37.52:238][893]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.06.16-12.39.49:424][768]BlueprintLog: New page: Compile CharacterController
+[2019.06.16-12.39.50:078][768]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.39.50:078][768]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.39.50:078][768]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.39.50:079][768]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.39.50:404][768]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2019.06.16-12.39.50:590][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.06.16-12.39.50:909][768]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas603AA1F448B1483A8035D8B80835C86F.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.39.50:930][768]LogFileHelpers: Saving map 'Prueabas' took 0.403
+[2019.06.16-12.39.50:981][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.39.51:542][768]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterController1525EE0D4267D43A1498428CF5693549.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.40.05:311][289]BlueprintLog: New page: Compile CharacterController
+[2019.06.16-12.40.05:668][289]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.40.05:669][289]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.40.05:669][289]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.40.05:669][289]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.40.05:874][289]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.06.16-12.40.05:985][289]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.06.16-12.40.06:220][289]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas10A7BF66441A959A36B216AEA686FFAA.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.40.06:239][289]LogFileHelpers: Saving map 'Prueabas' took 0.294
+[2019.06.16-12.40.06:290][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.40.06:682][289]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterController111287FB4C743E64FA8D769A30D3178C.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.40.08:147][380]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.06.16-12.40.09:025][380]LogSlate: Window 'Save Content' being destroyed
+[2019.06.16-12.40.09:066][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Animations/BackLoop" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/BackLoop.uasset" SILENT=true
+[2019.06.16-12.40.09:083][380]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/BackLoop4D68417C4319D9E7D0000F9B11E486FE.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/BackLoop.uasset'
+[2019.06.16-12.40.09:855][461]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.40.09:926][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.40.09:926][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.40.09:926][461]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:40:09 PM)
+[2019.06.16-12.40.09:926][461]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.40.09:942][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015248s)
+[2019.06.16-12.40.09:942][461]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.40.09:942][461]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2019.06.16-12.40.09:942][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016237s)
+[2019.06.16-12.40.09:980][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.06.16-12.40.09:992][461]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.40.10:023][461]LogInit: FAudioDevice initialized.
+[2019.06.16-12.40.10:056][461]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.40.10:059][461]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.40.10
+[2019.06.16-12.40.10:059][461]LogWorld: Bringing up level for play took: 0.003766
+[2019.06.16-12.40.10:075][461]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.937
+[2019.06.16-12.40.10:075][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.40.31:348][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.40.31:348][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.40.31:385][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.40.31:385][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.40.31:419][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.40.31:423][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.06.16-12.40.31:474][996]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.06.16-12.40.32:413][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.41.01:521][194]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/TurnForward8C34CD1B4826F37BA3293A80E0FCBF39.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/TurnForward.uasset'
+[2019.06.16-12.41.01:661][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.06.16-12.41.01:700][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.16-12.41.01:729][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.06.16-12.41.05:618][501]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/TurnForward.TurnForward
+[2019.06.16-12.41.05:636][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.41.05:662][501]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.16-12.41.05:953][501]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.41.15:502][ 67]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/TurnForwardBFFF0C6F4A5A5E471CF9C2B6621F172A.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/TurnForward.uasset'
+[2019.06.16-12.41.16:262][115]LogSlate: Window 'TurnForward' being destroyed
+[2019.06.16-12.41.31:474][804]LogEditorTransaction: Undo Delete current selection
+[2019.06.16-12.41.31:547][804]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.42.06:870][502]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.42.07:147][502]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.06.16-12.42.07:395][502]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBP5EEA76684FC125C19C4DC4A427CB7FF0.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.42.07:792][525]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.42.07:805][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.07:805][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.42.07:805][525]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:42:07 PM)
+[2019.06.16-12.42.07:805][525]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.42.07:822][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016793s)
+[2019.06.16-12.42.07:823][525]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.42.07:823][525]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2019.06.16-12.42.07:823][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.017855s)
+[2019.06.16-12.42.07:862][525]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.06.16-12.42.07:874][525]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.42.07:904][525]LogInit: FAudioDevice initialized.
+[2019.06.16-12.42.07:912][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.07:945][525]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.42.07:953][525]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.42.07
+[2019.06.16-12.42.07:955][525]LogWorld: Bringing up level for play took: 0.009503
+[2019.06.16-12.42.07:971][525]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.832
+[2019.06.16-12.42.07:972][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.09:837][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.09:837][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.09:845][641]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.42.09:884][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.42.09:884][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.09:926][641]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.06.16-12.42.09:938][642]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.06.16-12.42.15:245][211]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2019.06.16-12.42.15:656][260]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.16-12.42.18:973][616]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.42.19:175][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.06.16-12.42.19:417][616]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBP65FC1FCB46AB9B05A2A3BA97AD5CC84A.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.42.19:683][625]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.42.19:695][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.19:695][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.42.19:695][625]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:42:19 PM)
+[2019.06.16-12.42.19:696][625]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.42.19:709][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013224s)
+[2019.06.16-12.42.19:710][625]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.42.19:710][625]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2019.06.16-12.42.19:710][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.014343s)
+[2019.06.16-12.42.19:748][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.06.16-12.42.19:759][625]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.42.19:789][625]LogInit: FAudioDevice initialized.
+[2019.06.16-12.42.19:796][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.19:830][625]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.42.19:835][625]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.42.19
+[2019.06.16-12.42.19:836][625]LogWorld: Bringing up level for play took: 0.005278
+[2019.06.16-12.42.19:851][625]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.712
+[2019.06.16-12.42.19:851][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.25:635][ 10]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.25:636][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.25:643][ 10]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.42.25:681][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.42.25:681][ 10]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.25:722][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.06.16-12.42.25:731][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.06.16-12.42.33:517][788]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.42.33:779][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.06.16-12.42.34:018][788]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBP6D80CE4B4EBDEB065EB03CB3F3BEF8C1.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.42.34:339][804]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.42.34:351][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.34:351][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.42.34:351][804]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:42:34 PM)
+[2019.06.16-12.42.34:351][804]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.42.34:365][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013631s)
+[2019.06.16-12.42.34:366][804]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.42.34:366][804]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2019.06.16-12.42.34:366][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.014869s)
+[2019.06.16-12.42.34:412][804]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.06.16-12.42.34:424][804]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.42.34:453][804]LogInit: FAudioDevice initialized.
+[2019.06.16-12.42.34:459][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.34:489][804]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.42.34:495][804]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.42.34
+[2019.06.16-12.42.34:496][804]LogWorld: Bringing up level for play took: 0.006703
+[2019.06.16-12.42.34:511][804]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas -0.627
+[2019.06.16-12.42.34:512][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.39:386][130]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.39:386][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.42.39:394][130]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.42.39:435][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.42.39:436][130]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.42.39:480][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.06.16-12.42.39:491][131]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.06.16-12.42.59:961][335]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2019.06.16-12.43.00:168][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.06.16-12.43.00:413][335]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/ThirdPerson_AnimBPDE835D6143176FD1B4CF338D21D6980B.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/Animations/ThirdPerson_AnimBP.uasset'
+[2019.06.16-12.43.00:780][360]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.43.00:793][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.43.00:793][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.43.00:793][360]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:43:00 PM)
+[2019.06.16-12.43.00:793][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.43.00:807][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013400s)
+[2019.06.16-12.43.00:807][360]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.43.00:808][360]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2019.06.16-12.43.00:808][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.014330s)
+[2019.06.16-12.43.00:849][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.06.16-12.43.00:861][360]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.43.00:889][360]LogInit: FAudioDevice initialized.
+[2019.06.16-12.43.00:896][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.43.00:930][360]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.43.00:935][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.43.00
+[2019.06.16-12.43.00:936][360]LogWorld: Bringing up level for play took: 0.005071
+[2019.06.16-12.43.00:952][360]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas -0.186
+[2019.06.16-12.43.00:953][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.43.38:155][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.43.38:155][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.43.38:163][  1]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.43.38:202][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.43.38:203][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.43.38:245][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.06.16-12.43.38:272][  2]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.06.16-12.47.20:799][146]BlueprintLog: New page: Compile CharacterController
+[2019.06.16-12.47.21:235][146]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.47.21:236][146]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.47.21:236][146]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.47.21:236][146]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.47.21:486][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.06.16-12.47.21:617][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.06.16-12.47.21:880][146]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas2F9CA03240F2B751369A1890F29E3E67.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.47.21:904][146]LogFileHelpers: Saving map 'Prueabas' took 0.333
+[2019.06.16-12.47.21:967][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.47.22:424][146]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterController888F446C4B437FC18B6CCFA25738AEA8.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.48.27:276][749]BlueprintLog: New page: Compile CharacterController
+[2019.06.16-12.48.27:875][749]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.48.27:875][749]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.48.27:875][749]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.48.27:875][749]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.48.28:224][749]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.06.16-12.48.28:452][749]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
+[2019.06.16-12.48.28:780][749]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas79ADB104409FF6BFD0B95BBC2EC405FD.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.48.28:805][749]LogFileHelpers: Saving map 'Prueabas' took 0.431
+[2019.06.16-12.48.28:850][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.48.29:279][749]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterControllerA9FBFBC6476778750456CCA4BAECAFF1.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.49.29:226][965]LogEditorTransaction: Undo Change Number Pin Value
+[2019.06.16-12.49.29:388][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.49.58:223][579]BlueprintLog: New page: Compile CharacterController
+[2019.06.16-12.49.58:611][579]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.49.58:612][579]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.49.58:612][579]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.49.58:612][579]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.06.16-12.49.58:825][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.06.16-12.49.58:940][579]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.06.16-12.49.59:163][579]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas30043C43401909ACE92D02A24745B16E.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.49.59:179][579]LogFileHelpers: Saving map 'Prueabas' took 0.281
+[2019.06.16-12.49.59:241][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterController" FILE="../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset" SILENT=true
+[2019.06.16-12.49.59:667][579]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/CharacterController1090A9104111A44902BB1B8F95D3A615.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/Character/CharacterController.uasset'
+[2019.06.16-12.50.01:172][691]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.50.01:270][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.50.01:270][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.50.01:270][691]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:50:01 PM)
+[2019.06.16-12.50.01:270][691]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.50.01:285][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015235s)
+[2019.06.16-12.50.01:286][691]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.50.01:286][691]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2019.06.16-12.50.01:286][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016262s)
+[2019.06.16-12.50.01:326][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.06.16-12.50.01:338][691]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.50.01:368][691]LogInit: FAudioDevice initialized.
+[2019.06.16-12.50.01:375][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.50.01:405][691]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.50.01:411][691]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.50.01
+[2019.06.16-12.50.01:413][691]LogWorld: Bringing up level for play took: 0.006217
+[2019.06.16-12.50.01:428][691]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.29
+[2019.06.16-12.50.01:428][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.50.41:113][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.50.41:113][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.50.41:123][545]LogSlate: Window 'ElvenGames Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-12.50.41:267][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.50.41:267][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.50.41:310][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.06.16-12.50.41:620][546]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.06.16-12.50.59:078][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2019.06.16-12.51.04:796][936]Cmd: TRANSACTION UNDO
+[2019.06.16-12.51.04:796][936]LogEditorTransaction: Undo Scale Actors
+[2019.06.16-12.51.04:874][936]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.51.05:513][971]Cmd: TRANSACTION UNDO
+[2019.06.16-12.51.05:513][971]LogEditorTransaction: Undo Scale Actors
+[2019.06.16-12.51.05:589][971]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.16-12.51.12:629][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.51.12:687][573]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.51.12:700][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.12:700][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.51.12:700][573]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:51:12 PM)
+[2019.06.16-12.51.12:700][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.51.12:714][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014208s)
+[2019.06.16-12.51.12:714][573]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.51.12:715][573]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2019.06.16-12.51.12:715][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.015247s)
+[2019.06.16-12.51.12:749][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.06.16-12.51.12:761][573]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.51.12:788][573]LogInit: FAudioDevice initialized.
+[2019.06.16-12.51.12:814][573]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.51.12:817][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.51.12
+[2019.06.16-12.51.12:818][573]LogWorld: Bringing up level for play took: 0.003535
+[2019.06.16-12.51.12:832][573]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas -0.306
+[2019.06.16-12.51.12:832][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.21:869][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.21:869][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.21:985][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.51.21:986][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.22:023][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.22:027][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.06.16-12.51.22:082][631]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.06.16-12.51.23:724][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2019.06.16-12.51.25:388][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.51.25:804][969]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.51.25:816][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.25:816][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.51.25:816][969]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:51:25 PM)
+[2019.06.16-12.51.25:817][969]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.51.25:831][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014237s)
+[2019.06.16-12.51.25:832][969]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.51.25:832][969]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2019.06.16-12.51.25:832][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.015242s)
+[2019.06.16-12.51.25:867][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.06.16-12.51.25:879][969]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.51.25:907][969]LogInit: FAudioDevice initialized.
+[2019.06.16-12.51.25:933][969]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.51.25:937][969]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.51.25
+[2019.06.16-12.51.25:938][969]LogWorld: Bringing up level for play took: 0.003937
+[2019.06.16-12.51.25:952][969]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.814
+[2019.06.16-12.51.25:952][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.36:484][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.36:485][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.36:523][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.51.36:524][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.36:558][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.36:561][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.06.16-12.51.36:587][208]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.06.16-12.51.37:156][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2019.06.16-12.51.39:216][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.51.39:296][474]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.51.39:307][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.39:307][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.51.39:308][474]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:51:39 PM)
+[2019.06.16-12.51.39:308][474]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.51.39:323][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014758s)
+[2019.06.16-12.51.39:323][474]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.51.39:323][474]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2019.06.16-12.51.39:323][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.015608s)
+[2019.06.16-12.51.39:357][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.06.16-12.51.39:370][474]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.51.39:401][474]LogInit: FAudioDevice initialized.
+[2019.06.16-12.51.39:430][474]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.51.39:434][474]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.51.39
+[2019.06.16-12.51.39:435][474]LogWorld: Bringing up level for play took: 0.003754
+[2019.06.16-12.51.39:448][474]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.31
+[2019.06.16-12.51.39:449][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.55:870][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.55:870][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.55:909][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.51.55:909][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.55:944][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.51.55:948][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.06.16-12.51.55:968][403]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.06.16-12.51.56:581][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2019.06.16-12.51.59:476][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.51.59:550][753]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.16-12.51.59:564][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.51.59:564][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-12.51.59:564][753]PIE: New page: PIE session: Prueabas (Jun 16, 2019, 4:51:59 PM)
+[2019.06.16-12.51.59:564][753]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas
+[2019.06.16-12.51.59:580][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015478s)
+[2019.06.16-12.51.59:580][753]LogAIModule: Creating AISystem for world Prueabas
+[2019.06.16-12.51.59:581][753]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2019.06.16-12.51.59:581][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Prueabas.Prueabas to /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas (0.016509s)
+[2019.06.16-12.51.59:616][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.06.16-12.51.59:628][753]LogInit: XAudio2 using 'Altavoces +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.16-12.51.59:658][753]LogInit: FAudioDevice initialized.
+[2019.06.16-12.51.59:689][753]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-12.51.59:692][753]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas.Prueabas up for play (max tick rate 0) at 2019.06.16-14.51.59
+[2019.06.16-12.51.59:693][753]LogWorld: Bringing up level for play took: 0.004103
+[2019.06.16-12.51.59:706][753]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Prueabas 0.568
+[2019.06.16-12.51.59:706][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.52.55:143][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.52.55:143][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.52.55:179][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-12.52.55:180][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas' with GeneratedClass '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Prueabas.Prueabas:PersistentLevel.Prueabas'
+[2019.06.16-12.52.55:216][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-12.52.55:220][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.06.16-12.52.55:241][282]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.06.16-12.52.56:245][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-12.52.56:346][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.06.16-12.52.57:328][364]LogSlate: Window 'Save Content' being destroyed
+[2019.06.16-12.52.57:387][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.16-12.52.57:624][364]LogSavePackage: Moving '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Saved/Prueabas5610E7E0435E36DDB870AF921081F2F0.tmp' to '../../../../../../Users/juani/Desktop/Uni/Unreal/Elven-Games/ElvenGames/Content/ThirdPersonBP/Maps/Prueabas.umap'
+[2019.06.16-12.52.57:642][364]LogFileHelpers: Saving map 'Prueabas' took 0.289
